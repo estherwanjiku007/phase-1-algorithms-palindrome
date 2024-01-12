@@ -6,33 +6,22 @@ function reverse(word){
 }
 
 function isPalindrome(word) {
+   // Write your algorithm here
   const myWord=reverse(word);
   //if input is the same as the output
-  if(word === myWord ){
+  if(myWord === word ){
     return true;
   }
   else{
     return false;
   }
 }
-  // Write your algorithm here
- /* let myPalindrome=""
-  let palindrome=myPalindrome.forEach(myPalindrome=> {
-    for (const words of myPalindrome){
-        let aPalindrome=(words)=>{
-           for(let i=0;i<words.length;i++){
-            return i
-           }
-        }
-        let thePalindrome=(words)=>{
-          for(let i=words.length;i>=0;i--){
-            return i
-          }
-        }
-    }
+ 
+ /*
+  
 
     
-  });*/
+  */
   
   
     
